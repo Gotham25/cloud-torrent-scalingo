@@ -1,7 +1,7 @@
 {
   "name": "cloud-torrent",
   "description": "Cloud torrent application",
-  "logo": "https://github.com/Gotham25/cloud-torrent-scalingo/raw/readme_update/cloud-favicon.png",
+  "logo": "https://github.com/Gotham25/cloud-torrent-scalingo/raw/main/cloud-favicon.png",
   "repository": "https://github.com/Gotham25/cloud-torrent-scalingo",
   "website": "https://scalingo.com",
   "env": {
