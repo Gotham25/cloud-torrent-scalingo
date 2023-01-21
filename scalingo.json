@@ -1,0 +1,35 @@
+{
+  "name": "cloud-torrent",
+  "description": "Cloud torrent application",
+  "logo": "https://github.com/Gotham25/cloud-torrent-scalingo/raw/readme_update/cloud-favicon.png",
+  "repository": "https://github.com/Gotham25/cloud-torrent-scalingo",
+  "website": "https://scalingo.com",
+  "env": {
+    "AUTHENTICATED": {
+      "description": "Enables/Disables the user authentication when accessing the site. 'yes' to enable and 'no' to disable",
+      "value": "no",
+      "required": false
+    },
+    "AUTH_USERNAME": {
+      "description": "Username for authentication",
+      "value": "admin",
+      "required": false
+    },
+    "AUTH_PASSWORD": {
+      "description": "Password for authentication",
+      "value": "admin",
+      "required": false
+    },
+    "BUILDPACK_URL": {
+      "description": "Buildpack URL to build the application",
+      "value": "https://github.com/Scalingo/php-buildpack",
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "amount": 1,
+      "size": "M"
+    }
+  }
+}
